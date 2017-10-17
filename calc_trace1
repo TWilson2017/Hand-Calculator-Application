@@ -1,0 +1,53 @@
+Input Register: 0
+ACCUMULATOR = 0 ... Enter Command [ < > A C + - * / H[elp]]:
+Accumlator: 0
+ACCUMULATOR = 0 ... Enter Command [ < > A C + - * / H[elp]]:
+
+CALCULATOR COMMANDS/EXAMPLE:
+        =======    =======================================
+        command    Required action
+        -------    ---------------------------------------
+           +     : add In to accumulator
+           -     : subtract In from accumulator
+           *     : multiply accumulator by In
+           /     : divide accumulator by In
+           < xx  : read an input value xx into In
+           >     : show last input value read.
+           A     : show current value in accumulator.
+           C     : Clear current value in accumulator to 0.
+           H     : request THIS help menu.
+           X     : turn off calculator (exit program).
+           R     : Reset In Register.
+        -------    ----------------------------------------
+
+        Example: 3 + 5 - 4 / 2 entered as  < 3 + < 5 + < 4 - < 2 / A x
+               : 3 * 3 * 3 * 3 entered as  < 3 + * * * > A  x
+
+
+ACCUMULATOR = 0 ... Enter Command [ < > A C + - * / H[elp]]: ACCUMULATOR = 0 ... Enter Command [ < > A C + - * / H[elp]]:
+Input Register: 0
+ACCUMULATOR = 0 ... Enter Command [ < > A C + - * / H[elp]]: ACCUMULATOR = 1 ... Enter Command [ < > A C + - * / H[elp]]: ACCUMULATOR = 1 ... Enter Command [ < > A C + - * / H[elp]]:
+Input Register: 1
+ACCUMULATOR = 1 ... Enter Command [ < > A C + - * / H[elp]]: ACCUMULATOR = 1 ... Enter Command [ < > A C + - * / H[elp]]:
+Input Register: 1
+ACCUMULATOR = 1 ... Enter Command [ < > A C + - * / H[elp]]: UNKNOWN Command '4' ... retry
+ACCUMULATOR = 1 ... Enter Command [ < > A C + - * / H[elp]]:
+Input Register: 1
+ACCUMULATOR = 1 ... Enter Command [ < > A C + - * / H[elp]]: ACCUMULATOR = 1 ... Enter Command [ < > A C + - * / H[elp]]:
+Input Register: 1
+ACCUMULATOR = 1 ... Enter Command [ < > A C + - * / H[elp]]:
+Accumlator: 1
+ACCUMULATOR = 1 ... Enter Command [ < > A C + - * / H[elp]]:
+
+ACCUMULATOR = 0 ... Enter Command [ < > A C + - * / H[elp]]: < 31 > R > + A < 13 + > A X
+ACCUMULATOR = 0 ... Enter Command [ < > A C + - * / H[elp]]:
+Input Register: 0
+ACCUMULATOR = 0 ... Enter Command [ < > A C + - * / H[elp]]: ACCUMULATOR = 0 ... Enter Command [ < > A C + - * / H[elp]]:
+Input Register: 0
+ACCUMULATOR = 0 ... Enter Command [ < > A C + - * / H[elp]]: ACCUMULATOR = 0 ... Enter Command [ < > A C + - * / H[elp]]:
+Accumlator: 0
+ACCUMULATOR = 0 ... Enter Command [ < > A C + - * / H[elp]]: ACCUMULATOR = 0 ... Enter Command [ < > A C + - * / H[elp]]: ACCUMULATOR = 13 ... Enter Command [ < > A C + - * / H[elp]]:
+Input Register: 13
+ACCUMULATOR = 13 ... Enter Command [ < > A C + - * / H[elp]]:
+Accumlator: 13
+ACCUMULATOR = 13 ... Enter Command [ < > A C + - * / H[elp]]:

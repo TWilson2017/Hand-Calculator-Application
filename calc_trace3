@@ -1,0 +1,35 @@
+CALCULATOR COMMANDS/EXAMPLE:
+        =======    =======================================
+        command    Required action
+        -------    ---------------------------------------
+           +     : add In to accumulator
+           -     : subtract In from accumulator
+           *     : multiply accumulator by In
+           /     : divide accumulator by In
+           %     : mod accumulator by In
+           < xx  : read an input value xx into In
+           >     : show last input value read.
+           A     : show current value in accumulator.
+           C     : Clear current value in accumulator to 0.
+           H     : request THIS help menu.
+           X     : turn off calculator (exit program).
+           R     : Reset In Register.
+        -------    ----------------------------------------
+
+        Example: 3 + 5 - 4 / 2 entered as  < 3 + < 5 + < 4 - < 2 / A x
+
+
+ACCUMULATOR = 0 ... Enter Command [ < > A C + - * / H[elp]]:
+Input Register: 0
+ACCUMULATOR = 0 ... Enter Command [ < > A C + - * / H[elp]]:
+Accumlator: 0
+ACCUMULATOR = 0 ... Enter Command [ < > A C + - * / H[elp]]: ACCUMULATOR = 0 ... Enter Command [ < > A C + - * / H[elp]]:
+Input Register: 0
+ACCUMULATOR = 0 ... Enter Command [ < > A C + - * / H[elp]]: ACCUMULATOR = 8 ... Enter Command [ < > A C + - * / H[elp]]: ACCUMULATOR = 8 ... Enter Command [ < > A C + - * / H[elp]]:
+Input Register: 8
+ACCUMULATOR = 8 ... Enter Command [ < > A C + - * / H[elp]]: ACCUMULATOR = 2 ... Enter Command [ < > A C + - * / H[elp]]:
+Accumlator: 2
+ACCUMULATOR = 2 ... Enter Command [ < > A C + - * / H[elp]]:
+
+
+> < 31 > R < 30 > + A < 8 % < A X - Causes a Infinite Loop
